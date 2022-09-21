@@ -1,7 +1,5 @@
-SCRIPTS
+ffmpegcut.sh 
 =============
-
-## ffmpegcut.sh 
 
 Cut video to parts. Join parts into one video and replace existing. For each action there is question if you want to execute it.
  * usage: 
