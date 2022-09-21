@@ -7,3 +7,5 @@ Cut video to parts. Join parts into one video and replace existing. For each act
 
 For parts you need to provide start and end in seconds format. You can use math calculations:
   * eg. 1:25:47 (h:mm:ss) provide `60*60+25*60+47`, this will be calculated into `5147 seconds`
+
+Original script by rianoc @ https://superuser.com/a/719610
