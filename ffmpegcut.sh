@@ -33,7 +33,7 @@ while true; do
 done
 if [ "$CHOICE" == "1" ]; then
     echo "Cutting file $file video segment $segments starting at $SEGSTART and ending at $SEGEND"
-    ffmpeg -ss $SEGSTART -i "$file" -map 0:0 -map 0:1 -c:a copy -c:v copy -to  $SEGEND "$filename-part$segments.$extension"  >> segmenter.log 2>&1
+    ffmpeg -ss $SEGSTART -to $SEGEND -i "$file" -map 0:0 -map 0:1 -c:a copy -c:v copy "$filename-part$segments.$extension"  >> segmenter.log 2>&1
     clear
     echo -e "Cut file $filename-part$segments.$extension starting at $SEGSTART and ending at $SEGEND\n"                             
     segment "$segments"
