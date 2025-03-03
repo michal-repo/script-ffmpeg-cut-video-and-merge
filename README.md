@@ -1,5 +1,12 @@
-ffmpegcut.sh 
-=============
+# ffmpegcut scripts
+
+## If you liked it you can support my work
+[!["Buy Me A Coffee"](https://raw.githubusercontent.com/michal-repo/random_stuff/refs/heads/main/bmac_small.png)](https://buymeacoffee.com/michaldev)
+
+
+
+
+# ffmpegcut.sh 
 
 Cut video to parts. Join parts into one video and replace existing. For each action there is question if you want to execute it.
  * usage: 
@@ -11,8 +18,7 @@ For parts you need to provide start and end in seconds format. You can use math 
 Original script by rianoc @ https://superuser.com/a/719610
 
 
-ffmpegcut_concat.sh 
-=============
+# ffmpegcut_concat.sh 
 
 Modified version of first script.
 Define parts, then cut and merge in one run of ffmpeg. Faster if you want to cut multiple parts and merge them in one out file.
